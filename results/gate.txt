@@ -1,0 +1,2 @@
+command: mergecast report --base main --head feature/payments --fail-on conflict
+exit code: 1

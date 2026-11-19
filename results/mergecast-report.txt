@@ -1,0 +1,13 @@
+mergecast report â€” main (7164f98) â†’ feature/payments (18b74a5)
+merge base 3239f90 Â· proximity 3 lines
+
+3 file(s) changed on both sides Â· 2 conflict Â· 0 near Â· 1 touch Â· 0 same-change
+0 file(s) only on main Â· 0 only on feature/payments
+
+LEVEL       FILE                               BASEÂ±    HEADÂ±    DETAIL
+-----------------------------------------------------------------------
+conflict    src/app.py                         10       7        overlapping changed line ranges
+                                               lines 11-13 vs lines 11-13
+                                               lines 51-54 vs lines 51-52
+conflict    docs/legacy.md / docs/payments.md  12       0        delete/modify: one side removes the file the other edits
+touch       src/config.py                      2        2        different regions of the same file

@@ -1,0 +1,79 @@
+{
+  "base": {
+    "ref": "main",
+    "sha": "7164f98e0693587756c9fe061acabc68abf426c7"
+  },
+  "head": {
+    "ref": "feature/payments",
+    "sha": "18b74a58e63ecc70c897bbd2677d9e509cc62b20"
+  },
+  "merge_base": "3239f90fc1d9a417b1ba086a8e97c37f65156e38",
+  "proximity": 3,
+  "counts": {
+    "same-change": 0,
+    "touch": 1,
+    "near": 0,
+    "conflict": 2
+  },
+  "files_changed_one_side": {
+    "base_side": 0,
+    "head_side": 0
+  },
+  "files": [
+    {
+      "path": "src/app.py",
+      "base_path": "src/app.py",
+      "level": "conflict",
+      "reason": "overlapping changed line ranges",
+      "a_churn": 10,
+      "b_churn": 7,
+      "a_range": "lines 11-13, lines 51-54",
+      "b_range": "lines 11-13, lines 51-52",
+      "overlaps": [
+        {
+          "level": "conflict",
+          "base_start": 11,
+          "base_end": 14,
+          "a_span": "lines 11-13",
+          "b_span": "lines 11-13",
+          "gap": 0,
+          "identical": false
+        },
+        {
+          "level": "conflict",
+          "base_start": 51,
+          "base_end": 53,
+          "a_span": "lines 51-54",
+          "b_span": "lines 51-52",
+          "gap": 0,
+          "identical": false
+        }
+      ],
+      "score": 3067
+    },
+    {
+      "path": "docs/legacy.md / docs/payments.md",
+      "base_path": "docs/legacy.md",
+      "level": "conflict",
+      "reason": "delete/modify: one side removes the file the other edits",
+      "a_churn": 12,
+      "b_churn": 0,
+      "a_range": "lines 1-12",
+      "b_range": "-",
+      "overlaps": [],
+      "score": 3012
+    },
+    {
+      "path": "src/config.py",
+      "base_path": "src/config.py",
+      "level": "touch",
+      "reason": "different regions of the same file",
+      "a_churn": 2,
+      "b_churn": 2,
+      "a_range": "line 4",
+      "b_range": "line 30",
+      "overlaps": [],
+      "score": 1004
+    }
+  ]
+}
